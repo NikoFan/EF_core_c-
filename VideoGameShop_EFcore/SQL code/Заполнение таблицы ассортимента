@@ -1,0 +1,17 @@
+select *
+from shop_assortment;
+
+insert into shop_assortment
+values(1, 'Hogwarts Legacy Deluxe Edition', 320, 5, 'Америка');
+
+insert into shop_assortment
+values(2, 'HELLDIVERS 2', 1645, 2, 'Америка');
+
+insert into shop_assortment
+values(3, 'Atomic Heart', 330, 0, 'Россия');
+
+insert into shop_assortment
+values(4, 'Squad', 1225, 10, 'Россия');
+
+select *
+from shop_assortment;

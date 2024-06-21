@@ -1,0 +1,7 @@
+-- Создание таблицы Клиент
+CREATE TABLE client(
+	client_id int primary key not null,
+	client_login nchar(30) not null,
+	client_password nchar(30) not null,
+	client_email nchar(50) not null
+)

@@ -1,0 +1,7 @@
+CREATE TABLE shop_assortment(
+	product_id int primary key not null,
+	product_name nchar(30) not null,
+	product_cost int not null,
+	product_count int not null,
+	product_country nchar(20) not null
+)
